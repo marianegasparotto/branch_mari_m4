@@ -1,0 +1,13 @@
+.navFooter{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding-top: 15px;
+	background-color: #000000;
+	display: flex;
+	justify-content: center;
+}
+
+.footerText{
+	color: #ffff;
+}

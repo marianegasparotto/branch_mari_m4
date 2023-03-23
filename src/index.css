@@ -1,0 +1,6 @@
+html, body {
+  min-height: 100%;
+  background: linear-gradient( rgb(47, 89, 103), rgb(18, 44, 52), rgb(8, 28, 34));
+  background-repeat: no-repeat;
+  background-size: cover;
+}

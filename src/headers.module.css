@@ -1,0 +1,14 @@
+.navOptions{
+	color: #000000;
+	display: flex;
+	justify-content: flex-end;
+}
+.buttonEntrar{
+	background-color: #234251;
+	color: #000000;
+	margin: 5px;
+}
+
+.link{
+	padding: 5px;
+}

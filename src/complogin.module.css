@@ -1,0 +1,56 @@
+/* background image  */
+.plano{
+  background: linear-gradient(rgba(47, 89, 103, 0.436),rgba(134, 134, 134, 0.425),rgba(134, 134, 134, 0.414),rgba(47, 89, 103, 0.436)),
+  url(./img/background.png) no-repeat center center fixed;
+	height: 500px;
+  background-size: 90%;
+  position: relative;
+} 
+/* pagina que comporta os inputs  */
+.container{
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+/* linha que divide cadastro e login  */
+.cadastro::before{
+  content: '';
+  height: 90%;
+  width: 3px;
+  top: 10%;
+  position: absolute;
+  background-color: rgba(240, 248, 255, 0.618);
+  right: -30%;
+}
+.cadastro{
+  position: relative;
+}
+/* tamanho dos forms  */
+form{
+  width: 400px;
+}
+
+.textarea, textarea{
+  height: 40px;
+  resize: none;
+  opacity: 0.7;
+}
+
+label , h2 {
+  color: rgb(255, 255, 255);
+  font-family: 'Marvel', sans-serif;
+}
+label{
+  margin-bottom: 0 !important;
+}
+.buttonC{
+  margin-top: 15px;
+}
+
+
+
+
+
+
